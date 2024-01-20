@@ -1,0 +1,52 @@
+.discounted-items {
+  margin-top: 50px;
+  min-height: 444px;
+  &__row {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 32px;
+  }
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.03em;
+  }
+}
+@media (max-width: 1400px) {
+  .discounted-items {
+    &__row {
+      justify-content: center;
+      grid-template-columns: repeat(2, 318px);
+    }
+    &__title {
+    }
+  }
+}
+@media (max-width: 700px) {
+  .discounted-items {
+    &__row {
+      grid-template-columns: repeat(2, 250px);
+    }
+    &__title {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .discounted-items {
+    &__row {
+      grid-template-columns: repeat(2, 200px);
+    }
+  }
+}
+@media (max-width: 460px) {
+  .discounted-items {
+    &__row {
+      grid-template-columns: repeat(2, 150px);
+    }
+  }
+}

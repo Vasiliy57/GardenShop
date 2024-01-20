@@ -1,0 +1,86 @@
+.filter-product {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  &__price {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  &__price-name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  &__price-input {
+    width: 103px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: inherit;
+  }
+
+  &__discounted {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+  }
+
+  &__discounted-name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  &__discounted-check {
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+  }
+
+  &__filter-by {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  &__filter-by-name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  &__filter-by-select {
+    width: 219px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    font-size: inherit;
+    color: #797979;
+  }
+  &__btn-apply {
+    background-color: #339933;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 1200px) {
+  .filter-product {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    // flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 870px) {
+  .filter-product {
+    align-items: center;
+    gap: 20px;
+  }
+}

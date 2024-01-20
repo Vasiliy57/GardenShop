@@ -1,0 +1,1 @@
+.sales__row{margin-top:40px;display:grid;grid-template-columns:repeat(4, 1fr);gap:40px}@media(max-width: 870px){.sales__row{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-template-columns:repeat(2, 200px);gap:20px}}@media(max-width: 470px){.sales__row{grid-template-columns:repeat(2, 1fr)}}/*# sourceMappingURL=sales.css.map */

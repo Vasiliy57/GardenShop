@@ -1,0 +1,76 @@
+.banner-sale {
+  margin-top: 90px;
+  background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+  padding: 28px 0;
+  &__row {
+    display: flex;
+    gap: 188px;
+    justify-content: space-between;
+  }
+
+  &__img {
+    max-width: 422px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__content {
+  }
+
+  &__title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 108px;
+    letter-spacing: 0.03em;
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+  }
+}
+@media (max-width: 1080px) {
+  .banner-sale {
+    &__row {
+      gap: 50px;
+    }
+  }
+}
+@media (max-width: 960px) {
+  .banner-sale {
+    &__row {
+      gap: 20px;
+      justify-content: center;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 58px;
+      letter-spacing: 0.03em;
+    }
+
+    &__subtitle {
+      font-weight: 700;
+      font-size: 1;
+      line-height: 1;
+      letter-spacing: 0.03em;
+      margin-bottom: 30px;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .banner-sale {
+    text-align: center;
+    &__row {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+  }
+}
