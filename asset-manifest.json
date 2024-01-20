@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/GardenShop/static/css/main.3e5a0c28.css",
+    "main.js": "/GardenShop/static/js/main.5ce725e0.js",
+    "static/media/grass.png": "/GardenShop/static/media/grass.7c1f2398ee112c1d3d51.png",
+    "static/media/Montserrat-SemiBold.ttf": "/GardenShop/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Medium.ttf": "/GardenShop/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Bold.ttf": "/GardenShop/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Regular.ttf": "/GardenShop/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/not-found-img.jpg": "/GardenShop/static/media/not-found-img.7ba773bd9042e7d97b4d.jpg",
+    "static/media/dwarf.png": "/GardenShop/static/media/dwarf.1ed4a183a5b70e3dac8a.png",
+    "static/media/icon-whatsapp.svg": "/GardenShop/static/media/icon-whatsapp.175ae917027e393773987c2ded58ca75.svg",
+    "static/media/icon-instagram.svg": "/GardenShop/static/media/icon-instagram.cf342f5dfd95708d9fdbad053e06abc6.svg",
+    "static/media/icon-cart-white.svg": "/GardenShop/static/media/icon-cart-white.b456518308c278fd95ab.svg",
+    "static/media/icon-cart.svg": "/GardenShop/static/media/icon-cart.01df540066b0e17cb200.svg",
+    "index.html": "/GardenShop/index.html",
+    "static/media/remove.svg": "/GardenShop/static/media/remove.371d2ffbcbed215b93f9.svg",
+    "static/media/plus.svg": "/GardenShop/static/media/plus.cb2f4499f20b1191bf48.svg",
+    "static/media/minus.svg": "/GardenShop/static/media/minus.69f95d85eb2c2e30c475.svg",
+    "main.3e5a0c28.css.map": "/GardenShop/static/css/main.3e5a0c28.css.map",
+    "main.5ce725e0.js.map": "/GardenShop/static/js/main.5ce725e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e5a0c28.css",
+    "static/js/main.5ce725e0.js"
+  ]
+}
